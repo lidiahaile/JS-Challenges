@@ -2,12 +2,17 @@
 
 // 1. Write a function that takes a number and returs tru if it is a positive number and false if it is a negative number.
 
-   const isNumberPositve  = (number) => {
-    if (number >= 0)
-    return true;
-    else return false;
-   }
-  console.log (isNumberPositive(-1));
+   function isNumberPositve(number) {
+    if (number >= 0){
+        return true;
+    }
+    else {
+        return false;
+   } 
+ }
+
+console.log (isNumberPositve(-1));
+console.log (isNumberPositve(10));
 
 // 2. Write a function that takes a number of days and converts it into an age.
 
