@@ -21,7 +21,12 @@ function convertDaysToAge(days){
 convertDaysToAge(3650);
 convertDaysToAge(6570);
 //3. Write a function that takes three numbers and returns the largest of the three numbers.
+function getLargestNumber(a,b,c){
+    console.log(Math.max(a,b,c));
+}
 
+getLargestNumber(2,4,1);
+getLargestNumber(6,2,3);
 
 
 // 4. Write a function that takes an array of names and returns the last name from the array of names.
